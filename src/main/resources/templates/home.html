@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <link th:href="@{/styles/home_style.css}" rel="stylesheet"/>
+    
+</head>
+<body>
+<h2>home page</h2>
+<p th:text="${home_attr1}">
+    <strong>check model attribute!</strong>
+</p>
+<p th:text="${home_attr2}">
+    <strong>check model attribute!</strong>
+</p>
+ <a href="test1">proceed</a>
+</body>
+</html>
