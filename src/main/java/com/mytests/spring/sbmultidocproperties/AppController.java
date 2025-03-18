@@ -23,11 +23,14 @@ public class AppController {
     private String prop1;
     @Value("${my.props.prop2}")
     private String prop2;
+    @Value("${my.props.prop3}")
+    private String prop3;
 
     @GetMapping("/")
     public String home(Model model) {
         model.addAttribute("home_attr1",this.prop1);
         model.addAttribute("home_attr2", service.getHomeService());
+        model.addAttribute("home_attr3", this.prop3);
         return "home";
     }
 

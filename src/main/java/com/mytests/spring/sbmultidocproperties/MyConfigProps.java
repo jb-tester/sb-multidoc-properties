@@ -14,6 +14,15 @@ import org.springframework.stereotype.Component;
 public class MyConfigProps {
     String prop1;
     String prop2;
+    String prop3;
+
+    public String getProp3() {
+        return prop3;
+    }
+
+    public void setProp3(String prop3) {
+        this.prop3 = prop3;
+    }
 
     public String getProp1() {
         return prop1;
@@ -30,4 +39,5 @@ public class MyConfigProps {
     public void setProp2(String prop2) {
         this.prop2 = prop2;
     }
+
 }
