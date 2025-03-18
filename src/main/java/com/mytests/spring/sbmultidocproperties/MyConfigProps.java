@@ -3,14 +3,9 @@ package com.mytests.spring.sbmultidocproperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-/**
- * *
- * <p>Created by ${USER} on ${DATE}.</p>
- * <p>Project: ${PROJECT_NAME}.</p>
- * *
- */
+
 @ConfigurationProperties("my.props")
-@Component
+//@Component
 public class MyConfigProps {
     String prop1;
     String prop2;
