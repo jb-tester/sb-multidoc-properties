@@ -9,6 +9,10 @@ spring:
 my:
   props:
     prop3: prop3 first
+    prop4:
+      - prop4_0_yaml_first
+      - prop4_1_yaml_first
+      - prop4_2_yaml_first
 ---
 spring:
   config:
@@ -17,6 +21,10 @@ spring:
 my:
   props:
     prop3: prop3 second
+    prop4:
+      - prop4_0_yaml_second
+      - prop4_1_yaml_second
+      - prop4_2_yaml_second
 ---
 spring:
   config:
@@ -25,3 +33,7 @@ spring:
 my:
   props:
     prop3: prop3 third
+    prop4:
+      - prop4_0_yaml_third
+      - prop4_1_yaml_third
+      - prop4_2_yaml_third
